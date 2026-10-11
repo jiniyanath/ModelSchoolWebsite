@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Model School</title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+     
+</head>
+
+
+<body>
+ 
+ <!-- =========================
+         MOBILE HEADER
+    ========================== -->
+     <header class="mobile-header">
+
+        <a href="#home" class="mobile-logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>EduVision</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+
+<!-- =========================
+         FIXED LEFT SIDEBAR
+    ============================ -->
+    <aside class="sidebar" id="sidebar">
+
+    	<!-- Logo -->
+
+    	<div class="sidebar-logo">
+
+    		<div class="logo-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h2>Model<span>School</span></h2>
+
+            <p>LEARN • GROW • ACHIEVE</p>
+    	</div>
+
+        <!-- Navigation -->
+
+        <nav class="sidebar-menu">
+
+            <a href="#home" class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="#about" class="nav-link">
+                <i class="fa-solid fa-school"></i>
+                <span>About Us</span>
+            </a>
+
+            <a href="#features" class="nav-link">
+                <i class="fa-solid fa-star"></i>
+                <span>Why Choose Us</span>
+            </a>
+
+            <a href="#programs" class="nav-link">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Programs</span>
+            </a>
+
+            <a href="#gallery" class="nav-link">
+                <i class="fa-solid fa-images"></i>
+                <span>Gallery</span>
+            </a>
+
+            <a href="#video" class="nav-link">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Campus Video</span>
+            </a>
+
+            <a href="#contact" class="nav-link">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Contact Us</span>
+            </a>
+
+        </nav>
+
+        <!-- Sidebar Bottom -->
+
+        <div class="sidebar-bottom">
+
+            <p>Follow Our Journey</p>
+
+            <div class="social-links">
+
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+</aside>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+ <main class="main-content">
+
+ 	<!-- =========================
+             HERO SECTION / SLIDER
+        ========================== -->
+        <section class="hero" id="home">
+
+        	<!-- Slider -->     
+        	     <div class="hero-slide active">
+        	     	<img src="./slider1.jpg" alt="Students learning in classroom">
+        	     </div>
+
+        	     <div class="hero-slide">
+                    <img src="./slider2.jpg" alt="Students graduating">
+                 </div>
+
+                 <div class="hero-slide">
+                    <img src="./slider3.jpg" alt="Happy students">
+                 </div>
+
+
+            <!-- Dark Overlay -->
+                 <div class="hero-overlay"></div>
+
+
+             <!-- Hero Content -->     
+                 <div class="hero-content">
+
+                <div class="hero-tag">
+                    <i class="fa-solid fa-star"></i>
+                    Inspiring Excellence Since 1998
+                </div>
+
+                <h1>
+                    Empowering Minds.<br>
+                    <span>Creating Futures.</span>
+                </h1>
+
+                <p>
+                    A modern learning environment where curiosity,
+                    creativity and confidence help every student
+                    achieve their full potential.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#about" class="btn btn-primary">
+                        Discover Our School
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        Admission Enquiry
+                    </a>
+
+                </div>
+
+            </div> 
+
+            <!-- Slider Controls -->
+
+            <div class="slider-controls">
+
+                <button id="prevHero">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <div class="slider-dots">
+
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+
+                <button id="nextHero">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Scroll Down -->
+
+            <a href="#about" class="scroll-down">
+
+                <span>Scroll Down</span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+    
+</section>
+
+<!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section class="about section-padding" id="about">
+
+            <div class="container about-grid">
+
+
+                <!-- Image -->
+
+                <div class="about-image">
+
+                    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=85"
+                        alt="School students">
+
+                    <div class="experience-box">
+
+                        <strong>25+</strong>
+
+                        <span>Years of<br>Excellence</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Content -->
+
+                <div class="about-content">
+
+                    <span class="section-tag">
+                        <i class="fa-solid fa-school"></i>
+                        ABOUT OUR SCHOOL
+                    </span>
+
+                    <h2>
+                        A Place Where Students
+                        <span>Discover Their Potential</span>
+                    </h2>
+
+                    <p>
+                        At EduVision School, education goes beyond
+                        textbooks. We create meaningful learning
+                        experiences that help students become confident,
+                        creative and responsible individuals.
+                    </p>
+
+                    <p>
+                        Our dedicated teachers and modern facilities
+                        provide the perfect environment for academic
+                        excellence and personal growth.
+                    </p>
+
+
+                    <!-- Statistics -->
+
+                    <div class="about-stats">
+
+                        <div>
+                            <h3>2500+</h3>
+                            <p>Students</p>
+                        </div>
+
+                        <div>
+                            <h3>120+</h3>
+                            <p>Teachers</p>
+                        </div>
+
+                        <div>
+                            <h3>98%</h3>
+                            <p>Success Rate</p>
+                        </div>
+
+                    </div>
+
+
+                    <a href="#features" class="text-link">
+
+                        Explore More
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+             </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURES
+        ========================== -->
+
+        <section class="features section-padding" id="features">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        <i class="fa-solid fa-star"></i>
+                        WHY CHOOSE US
+                    </span>
+
+                    <h2>
+                        Everything Your Child Needs
+                        <span>To Succeed</span>
+                    </h2>
+
+                    <p>
+                        We combine quality education, modern technology
+                        and creative learning experiences.
+                    </p>
+
+                </div>
+
+
+
+                <div class="feature-grid">
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+
+                        <h3>Expert Teachers</h3>
+
+                        <p>
+                            Passionate and experienced teachers who inspire
+                            students to learn and grow.
+                        </p>
+
+                        <a href="#">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+
+                        <h3>Smart Learning</h3>
+
+                        <p>
+                            Interactive classrooms with modern technology
+                            for engaging education.
+                        </p>
+
+                        <a href="#">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+
+                        <h3>Modern Labs</h3>
+
+                        <p>
+                            Well-equipped science and computer laboratories
+                            for practical learning.
+                        </p>
+
+                        <a href="#">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-futbol"></i>
+                        </div>
+
+                        <h3>Sports & Activities</h3>
+
+                        <p>
+                            Developing teamwork, discipline and confidence
+                            through activities and sports.
+                        </p>
+
+                        <a href="#">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- =========================
+             PROGRAMS CAROUSEL
+        ========================== -->
+
+        <section class="programs section-padding" id="programs">
+
+            <div class="container">
+
+
+                <div class="program-header">
+
+                    <div>
+
+                        <span class="section-tag">
+                            <i class="fa-solid fa-book-open"></i>
+                            OUR PROGRAMS
+                        </span>
+
+                        <h2>
+                            Learning For Every
+                            <span>Stage Of Life</span>
+                        </h2>
+
+                    </div>
+
+
+                    <div class="program-controls">
+
+                        <button id="programPrev">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+
+                        <button id="programNext">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="program-carousel-wrapper">
+
+                    <div class="program-carousel" id="programCarousel">
+
+
+                        <!-- Card 1 -->
+
+                        <article class="program-card">
+
+                            <div class="program-image">
+
+                                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=800&q=85"
+                                    alt="Primary education">
+
+                                <span>01</span>
+
+                            </div>
+
+                            <div class="program-content">
+
+                                <div class="program-icon">
+                                    <i class="fa-solid fa-child-reaching"></i>
+                                </div>
+
+                                <h3>Primary School</h3>
+
+                                <p>
+                                    A joyful learning journey that builds
+                                    curiosity and strong foundations.
+                                </p>
+
+                                <a href="#">
+                                    Explore Program
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Card 2 -->
+
+                        <article class="program-card">
+
+                            <div class="program-image">
+
+                                <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=800&q=85"
+                                    alt="Secondary education">
+
+                                <span>02</span>
+
+                            </div>
+
+                            <div class="program-content">
+
+                                <div class="program-icon">
+                                    <i class="fa-solid fa-book"></i>
+                                </div>
+
+                                <h3>Secondary School</h3>
+
+                                <p>
+                                    Developing academic knowledge, critical
+                                    thinking and leadership skills.
+                                </p>
+
+                                <a href="#">
+                                    Explore Program
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Card 3 -->
+
+                        <article class="program-card">
+
+                            <div class="program-image">
+
+                                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=85"
+                                    alt="Computer education">
+
+                                <span>03</span>
+
+                            </div>
+
+                            <div class="program-content">
+
+                                <div class="program-icon">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+
+                                <h3>Digital Learning</h3>
+
+                                <p>
+                                    Preparing students with essential digital
+                                    skills for the future.
+                                </p>
+
+                                <a href="#">
+                                    Explore Program
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- Card 4 -->
+
+                        <article class="program-card">
+
+                            <div class="program-image">
+
+                                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=85"
+                                    alt="Science laboratory">
+
+                                <span>04</span>
+
+                            </div>
+
+                            <div class="program-content">
+
+                                <div class="program-icon">
+                                    <i class="fa-solid fa-atom"></i>
+                                </div>
+
+                                <h3>Science & Innovation</h3>
+
+                                <p>
+                                    Encouraging creativity, research and
+                                    scientific discovery.
+                                </p>
+
+                                <a href="#">
+                                    Explore Program
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+<!-- =========================
+             GALLERY
+        ========================== -->
+
+        <section class="gallery section-padding" id="gallery">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        <i class="fa-solid fa-images"></i>
+                        SCHOOL LIFE
+                    </span>
+
+                    <h2>
+                        Moments That Make
+                        <span>Learning Beautiful</span>
+                    </h2>
+
+                    <p>
+                        Explore some wonderful moments from our school campus.
+                    </p>
+
+                </div>
+
+
+
+                <div class="gallery-grid">
+
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=85"
+                            alt="Students in school">
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=85"
+                            alt="Classroom">
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=85"
+                            alt="Students learning">
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1690479510844-6385aa431b76?auto=format&fit=crop&w=900&q=85"
+                            alt="School students">
+
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=85"
+                            alt="Students together">
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=85"
+                            alt="Science class">
+
+                        <div class="gallery-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LIGHTBOX -->
+
+        <div class="lightbox" id="lightbox">
+
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <img src="" alt="Gallery Preview" id="lightboxImage">
+
+        </div>
+
+<!-- =========================
+             VIDEO SECTION
+        ========================== -->
+
+        <section class="video-section" id="video">
+
+            <div class="video-overlay"></div>
+
+            <div class="video-content">
+
+                <span class="section-tag light-tag">
+                    <i class="fa-solid fa-circle-play"></i>
+                    DISCOVER EDUVISION
+                </span>
+
+                <h2>
+                    Experience Life At<br>
+                    <span>Our School</span>
+                </h2>
+
+                <p>
+                    Discover a world of learning, friendship,
+                    creativity and unforgettable experiences.
+                </p>
+
+
+                <button class="play-btn" id="playVideo">
+
+                    <i class="fa-solid fa-play"></i>
+
+                </button>
+
+
+                <p class="watch-text">WATCH OUR CAMPUS VIDEO</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- VIDEO MODAL -->
+
+        <div class="video-modal" id="videoModal">
+
+            <div class="video-modal-content">
+
+                <button class="video-close" id="videoClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <iframe
+                    id="youtubeVideo"
+                    src="https://www.youtube.com/embed/-X7okpS9Ufc?enablejsapi=1"
+
+                    title="School Video"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+
+<!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section class="contact section-padding" id="contact">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        <i class="fa-solid fa-envelope"></i>
+                        CONTACT US
+                    </span>
+
+                    <h2>
+                        Let's Start Your Child's
+                        <span>Learning Journey</span>
+                    </h2>
+
+                    <p>
+                        Contact us today to know more about admissions
+                        and our educational programs.
+                    </p>
+
+                </div>
+
+
+
+                <div class="contact-grid">
+
+
+                    <!-- Contact Details -->
+
+                    <div class="contact-details">
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <h4>Our Location</h4>
+                                <p>123 Education Avenue, Kolkata, India</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@eduvision.com</p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Social Icons -->
+
+                        <div class="contact-social">
+
+                            <p>Follow Us</p>
+
+                            <div class="social-links dark-social">
+
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Google Map -->
+
+                    <div class="map-container">
+
+                        <iframe
+                            src="https://www.google.com/maps?q=Kolkata,West%20Bengal,India&output=embed"
+                            loading="lazy"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+
+            <div class="footer-container">
+
+                <div class="footer-logo">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <div>
+                        <h2>EduVision</h2>
+                        <p>LEARN • GROW • ACHIEVE</p>
+                    </div>
+
+                </div>
+
+
+                <p>
+                    © 2026 EduVision School. All Rights Reserved.
+                </p>
+
+
+                <a href="#home" class="back-top">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                </a>
+
+            </div>
+
+        </footer>
+
+
+ </main>   
+    	
+<!-- Main JS -->
+    <script src="script.js"></script>
+<!-- Bootstrap Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
